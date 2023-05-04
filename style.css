@@ -1,0 +1,23 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-info:hover {
+background-color: palevioletred;
+}
+
+canvas {
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    from {
+        box-shadow: 1px 1px 28px #f07fbf;
+    }
+
+    to {
+        box-shadow: 1px 1px 28px #f01a93; 
+    }
+}
